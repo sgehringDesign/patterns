@@ -1,0 +1,112 @@
+
+// COLORS
+
+.white {
+  color: $white;
+}
+
+.black {
+  color: $black;
+}
+
+.light-gray {
+  color: $light-gray;
+}
+
+.medium-gray {
+  color: $medium-gray;
+}
+
+.dark-gray {
+  color: $medium-gray;
+}
+
+.red-1797 {
+  color: $pantone-1797;
+}
+
+.purple-2117 {
+  color: $pantone-2117;
+}
+
+.purple-2116 {
+  color: $pantone-2116;
+}
+
+.purple-2115 {
+  color: $pantone-2115;
+}
+
+.purple-2114 {
+  color: $pantone-2114;
+}
+
+.purple-2113 {
+  color: $pantone-2113;
+}
+
+
+// VERTICLE PADDING
+
+.v-padding-extra-large {
+  padding-top: 233px;
+  padding-bottom: 233px;
+}
+
+.v-padding-large {
+  padding-top: 144px;
+  padding-bottom: 144px;
+}
+
+.v-padding-medium {
+  padding-top: 89px;
+  padding-bottom: 89px;
+}
+
+
+.v-padding-small {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.v-padding-extra-small {
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+@include breakpoint(small only) { 
+
+  .v-padding-extra-large,
+  .v-padding-large,
+  .v-padding-medium,
+  .v-padding-small {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+}
+
+
+// INLINE 
+
+ul.sentance {
+  //display:inline;
+  //border:1px solid red;
+  list-style-position: inside;
+  
+  
+  li {
+    display:inline;
+    list-style-position: inside;
+    //border:1px solid green;
+    padding-left: 1rem;
+  }
+}
+
+ul.paragraph {
+  li {
+    margin-bottom: $paragraph-margin-bottom;
+  }
+}
+
+
