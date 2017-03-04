@@ -19,6 +19,14 @@
     h6 {
       text-align: left;
     }
+    
+    ul {
+      margin-bottom: $paragraph-margin-bottom + .5rem;
+      
+      li {
+        margin-bottom: 0;
+      } 
+    }
   }
 
 }
