@@ -32,6 +32,12 @@
       } 
     }
   }
+  
+  .thumbnail,
+  .icon {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
 
 }
 
@@ -53,6 +59,12 @@
   ul {
     margin-bottom: $paragraph-margin-bottom + .5rem;
   }
+  
+  .thumbnail,
+  .icon {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
 }
 
 //- columned-list-boxed 
@@ -72,6 +84,12 @@
   
   ul {
     margin-bottom: $paragraph-margin-bottom + .5rem;
+  }
+  
+  .thumbnail,
+  .icon {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 
