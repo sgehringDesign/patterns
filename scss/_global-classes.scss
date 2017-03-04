@@ -1,6 +1,5 @@
 
 // COLORS
-
 .white {
   color: $white;
 }
@@ -53,20 +52,6 @@
 .black {
   color: $black;
 }
-
-
-/*
-  $gray-05: #f2f2f2;
-  $gray-10: #e6e6e6;
-  $gray-20: #cccccc;
-  $gray-30: #b3b3b3;
-  $gray-40: #999999;
-  $gray-50: #808080;
-  $gray-60: #666666;
-  $gray-70: #4d4d4d;
-  $gray-80: #333333;
-  $gray-90: #e5e5e5;
-*/
 
 .bg-gray-03 {
   background: #f7f7f7;
@@ -200,6 +185,7 @@ ul.paragraph {
   }
 }
 
+
 ul.boxed {
   display: block;
   background: $gray-05;
@@ -213,13 +199,14 @@ ul.boxed {
     text-align: center;
     margin-bottom: $paragraph-margin-bottom;
     border-radius: $global-radius;
-    padding:.2rem;
+    padding:.4rem;
     
     &:last-child {
       margin-bottom: .5rem;
     }
   }
 }
+
 
 ul.divider {
   display: block;
