@@ -90,7 +90,8 @@
 }
 
 
-// INLINE 
+
+// LIST 
 
 ul.sentance {
   list-style-position: inside;
@@ -136,6 +137,23 @@ ul.boxed {
     
     &:last-child {
       margin-bottom: .5rem;
+    }
+  }
+}
+
+ul.divider {
+  display: block;
+  list-style: none; 
+  
+  li {
+    display: block;
+    text-align: center;
+    padding-bottom: $paragraph-margin-bottom;
+    margin-bottom: $paragraph-margin-bottom;
+    border-bottom: 1px dotted $gray-20;
+    
+    &:last-child {
+      border-bottom: none;
     }
   }
 }
