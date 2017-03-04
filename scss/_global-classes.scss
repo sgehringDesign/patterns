@@ -22,8 +22,6 @@
   color: $dark-gray;
 }
 
-
-
 .red-1797 {
   color: $pantone-1797;
 }
@@ -46,6 +44,88 @@
 
 .purple-2113 {
   color: $pantone-2113;
+}
+
+.white {
+  color: $white;
+}
+
+.black {
+  color: $black;
+}
+
+
+/*
+  $gray-05: #f2f2f2;
+  $gray-10: #e6e6e6;
+  $gray-20: #cccccc;
+  $gray-30: #b3b3b3;
+  $gray-40: #999999;
+  $gray-50: #808080;
+  $gray-60: #666666;
+  $gray-70: #4d4d4d;
+  $gray-80: #333333;
+  $gray-90: #e5e5e5;
+*/
+
+.bg-gray-03 {
+  background: #f7f7f7;
+}
+
+.bg-gray-05 {
+  background: $gray-05;
+}
+
+.bg-gray-10 {
+  bbackground: $gray-10;
+}
+
+.bg-gray-20 {
+  background: $gray-20;
+}
+
+.bg-gray-30 {
+  background: $gray-30;
+}
+
+.bg-gray-40 {
+  background: $gray-40;
+}
+
+.bg-light-gray {
+  background: $light-gray;
+}
+
+.bg-medium-gray {
+  background: $medium-gray;
+}
+
+.bg-dark-gray {
+  background: $dark-gray;
+}
+
+.bg-red-1797 {
+  background: $pantone-1797;
+}
+
+.bg-purple-2117 {
+  background: $pantone-2117;
+}
+
+.purple-2116 {
+ background: $pantone-2116;
+}
+
+.bg-purple-2115 {
+  background: $pantone-2115;
+}
+
+.bg-purple-2114 {
+  background: $pantone-2114;
+}
+
+.bg-purple-2113 {
+  background: $pantone-2113;
 }
 
 

@@ -1,7 +1,11 @@
 
 //- columned-list-left
 .columned-list-left {
-
+    
+    h1 {
+      text-align: center;
+    }
+    
     h2, 
     h3, 
     h4, 
@@ -33,6 +37,11 @@
 
 //- columned-list-sentance 
 .columned-list-sentance {
+  
+  h1 {
+    text-align: center;
+  }
+  
   h2, 
   h3, 
   h4, 
@@ -48,6 +57,11 @@
 
 //- columned-list-boxed 
 .columned-list-boxed {
+  
+  h1 {
+    text-align: center;
+  }
+  
   h2, 
   h3, 
   h4, 
