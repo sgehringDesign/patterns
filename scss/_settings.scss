@@ -57,13 +57,15 @@ $foundation-palette: (
   alert: #cc4b37,
 );
  
+//SG
 $pantone-1797: #CB333B;
 $pantone-2117: #44499C;
 $pantone-2116: #6068B2;
 $pantone-2115: #6F79BD;
 $pantone-2114: #838DC8;
 $pantone-2113: #A5B9E3;
- 
+//SG
+
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
@@ -123,19 +125,19 @@ $header-lineheight: 1.1;
 $header-margin-bottom: 1rem;
 $header-styles: (
   small: (
-    'h1': ('font-size': 24),
-    'h2': ('font-size': 20),
-    'h3': ('font-size': 19),
-    'h4': ('font-size': 18),
+    'h1': ('font-size': 30),
+    'h2': ('font-size': 24),
+    'h3': ('font-size': 22),
+    'h4': ('font-size': 19),
     'h5': ('font-size': 17),
     'h6': ('font-size': 16),
   ),
   medium: (
     'h1': ('font-size': 48),
-    'h2': ('font-size': 40),
-    'h3': ('font-size': 31),
-    'h4': ('font-size': 25),
-    'h5': ('font-size': 20),
+    'h2': ('font-size': 30),
+    'h3': ('font-size': 26),
+    'h4': ('font-size': 22),
+    'h5': ('font-size': 18),
     'h6': ('font-size': 16),
   ),
 );

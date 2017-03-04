@@ -2,6 +2,14 @@
 //- columned-list-left
 .columned-list-left {
 
+    h2, 
+    h3, 
+    h4, 
+    h5, 
+    h6 {
+      margin-bottom: $subheader-margin-bottom;   
+    }
+    
   @include breakpoint(small only) {
     h1, 
     h2, 
@@ -17,11 +25,27 @@
 
 //- columned-list-sentance 
 .columned-list-sentance {
+  h2, 
+  h3, 
+  h4, 
+  h5, 
+  h6 {
+    margin-bottom: $subheader-margin-bottom;   
+  }
   
+  ul {
+    margin-bottom: $paragraph-margin-bottom + .5rem;
+  }
 }
 
 //- columned-list-boxed 
 .columned-list-boxed {
-  
+  h2, 
+  h3, 
+  h4, 
+  h5, 
+  h6 {
+    margin-bottom: $subheader-margin-bottom;   
+  }
 }
 

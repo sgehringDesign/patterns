@@ -9,6 +9,7 @@
   color: $black;
 }
 
+
 .light-gray {
   color: $light-gray;
 }
@@ -18,8 +19,10 @@
 }
 
 .dark-gray {
-  color: $medium-gray;
+  color: $dark-gray;
 }
+
+
 
 .red-1797 {
   color: $pantone-1797;
@@ -90,18 +93,23 @@
 // INLINE 
 
 ul.sentance {
-  //display:inline;
-  //border:1px solid red;
   list-style-position: inside;
-  
-  
+  margin-bottom: $paragraph-margin-bottom;
+
   li {
     display:inline;
-    list-style-position: inside;
-    //border:1px solid green;
-    padding-left: 1rem;
+
+    &:before {
+      content: '\00a0\2022\00a0\00a0';
+      color:$dark-gray;
+    }
+
+    &:first-child:before {
+      content: '';
+    }
   }
 }
+
 
 ul.paragraph {
   li {
