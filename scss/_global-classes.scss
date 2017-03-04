@@ -112,8 +112,31 @@ ul.sentance {
 
 
 ul.paragraph {
+  margin-bottom: $paragraph-margin-bottom;
+
   li {
     margin-bottom: $paragraph-margin-bottom;
+  }
+}
+
+ul.boxed {
+  display: block;
+  background: $gray-05;
+  list-style: none; 
+  padding:.5rem;
+  border-radius: $global-radius;
+  
+  li {
+    display: block;
+    background: $white;
+    text-align: center;
+    margin-bottom: $paragraph-margin-bottom;
+    border-radius: $global-radius;
+    padding:.2rem;
+    
+    &:last-child {
+      margin-bottom: .5rem;
+    }
   }
 }
 
