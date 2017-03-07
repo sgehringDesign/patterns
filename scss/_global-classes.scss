@@ -211,6 +211,7 @@ ul.boxed {
 ul.divider {
   display: block;
   list-style: none; 
+  border-top: 1px dotted $gray-20;
   
   li {
     display: block;
@@ -218,11 +219,7 @@ ul.divider {
     padding-bottom: $paragraph-margin-bottom;
     margin-bottom: $paragraph-margin-bottom;
     border-bottom: 1px dotted $gray-20;
-    
-    &:first-child {
-      border-top: 1px dotted $gray-20;
-    }
-    
+
     &:last-child {
       border-bottom: none;
     }
