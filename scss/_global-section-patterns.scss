@@ -102,6 +102,10 @@
           margin-bottom: $paragraph-margin-bottom;
         }
       }
+      
+      h2, h3, h4 {
+        margin-bottom: $paragraph-margin-bottom;
+      }
     }
   }
 }
