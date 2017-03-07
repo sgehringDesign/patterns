@@ -117,3 +117,26 @@
   }
 }
 
+.columned-right-image {
+  @include breakpoint(small only) { 
+    .columns {
+      
+      h2, h3, h4 {
+        margin-bottom: $paragraph-margin-bottom;
+      }
+      
+      p:last-child {
+        margin-bottom: 0;
+      }
+      
+      &:last-child {
+        img {
+          margin-bottom: $paragraph-margin-bottom + 1;
+        }
+      }
+      
+      
+    }
+  }
+}
+
