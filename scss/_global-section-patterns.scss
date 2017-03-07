@@ -96,7 +96,7 @@
 
 .columned-left-image {
   @include breakpoint(small only) { 
-    img {
+    .columns {
       &:first-child {
         margin-bottom: $paragraph-margin-bottom;
       }
