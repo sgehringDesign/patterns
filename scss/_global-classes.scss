@@ -148,10 +148,42 @@
   .v-padding-large,
   .v-padding-medium,
   .v-padding-small {
-    padding-top: 34px;
+    padding-top: 34px; 
     padding-bottom: 34px;
   }
 
+}
+
+@include breakpoint(medium) {
+  .valign-middle-medium {
+    display: table;
+  }
+  
+  .valign-middle-medium .columns {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .valign-middle-medium .columns,
+  .valign-middle [class*="column"] + [class*="column"]:last-child {
+    float: none;
+  }
+}
+
+@include breakpoint(large) {
+  .valign-large {
+    display: table;
+  }
+  
+  .valign-large .columns {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .valign-large .columns,
+  .valign-large [class*="column"] + [class*="column"]:last-child {
+    float: none;
+  }
 }
 
 

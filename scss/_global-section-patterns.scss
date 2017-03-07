@@ -93,3 +93,16 @@
   }
 }
 
+
+.columned-left-image {
+  @include breakpoint(small only) { 
+    .columns {
+      &:first-child {
+        img {
+          margin-bottom: $paragraph-margin-bottom;
+        }
+      }
+    }
+  }
+}
+
