@@ -104,7 +104,7 @@
       
       &:first-child {
         img {
-          margin-bottom: $paragraph-margin-bottom;
+          margin-bottom: $paragraph-margin-bottom + 1;
         }
       }
       
