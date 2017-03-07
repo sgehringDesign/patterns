@@ -219,6 +219,10 @@ ul.divider {
     margin-bottom: $paragraph-margin-bottom;
     border-bottom: 1px dotted $gray-20;
     
+    &:first-child {
+      border-top: 1px dotted $gray-20;
+    }
+    
     &:last-child {
       border-bottom: none;
     }
