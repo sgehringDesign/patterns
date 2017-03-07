@@ -97,15 +97,22 @@
 .columned-left-image {
   @include breakpoint(small only) { 
     .columns {
-      &:first-child {
-        img {
-          margin-bottom: $paragraph-margin-bottom;
-        }
-      }
       
       h2, h3, h4 {
         margin-bottom: $paragraph-margin-bottom;
       }
+      
+      p:last-child {
+        margin-bottom: 0;
+      }
+      
+      &:first-child {
+        img {
+          margin-bottom: $paragraph-margin-bottom + 1;
+        }
+      }
+      
+      
     }
   }
 }
