@@ -212,6 +212,7 @@ ul.divider {
   display: block;
   list-style: none; 
   border-top: 1px dotted $gray-20;
+  padding-top: $paragraph-margin-bottom;
   
   li {
     display: block;
