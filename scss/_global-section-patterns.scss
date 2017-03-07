@@ -80,7 +80,7 @@
   h4, 
   h5, 
   h6 {
-    margin-bottom: $subheader-margin-bottom;   
+    margin-bottom: 0;   
   }
 
   h2 + p.lead,
@@ -90,6 +90,7 @@
   }
 
   ul {
+    margin-top: $paragraph-margin-bottom + .5rem;
     margin-bottom: $paragraph-margin-bottom + .5rem;
   }
 
