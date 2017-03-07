@@ -67,6 +67,37 @@
   }
 }
 
+
+//- columned-list-sentance 
+.columned-list-divider {
+
+  h1 {
+    text-align: center;
+  }
+
+  h2, 
+  h3, 
+  h4, 
+  h5, 
+  h6 {
+    margin-bottom: $subheader-margin-bottom;   
+  }
+
+  p.lead {
+    font-weight:100;
+  }
+
+  ul {
+    margin-bottom: $paragraph-margin-bottom + .5rem;
+  }
+
+  .thumbnail,
+  .icon {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
 //- columned-list-boxed 
 .columned-list-boxed {
   
