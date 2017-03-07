@@ -83,7 +83,9 @@
     margin-bottom: $subheader-margin-bottom;   
   }
 
-  p.lead {
+  h2 + p.lead,
+  h3 + p.lead,
+  h4 + p.lead {
     font-weight:100;
   }
 
