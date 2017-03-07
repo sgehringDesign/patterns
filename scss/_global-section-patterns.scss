@@ -98,7 +98,9 @@
   @include breakpoint(small only) { 
     .columns {
       &:first-child {
-        margin-bottom: $paragraph-margin-bottom;
+        img {
+          margin-bottom: $paragraph-margin-bottom;
+        }
       }
     }
   }
