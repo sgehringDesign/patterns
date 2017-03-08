@@ -174,3 +174,27 @@
   }
 }
 
+
+
+.cta-fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height:275px;
+  width:300px;
+  //background: #fff;
+  
+  .header {
+    ///background: #eee;
+    height:25px;
+    
+    button {
+      float:right;
+      border:1px solid red;
+    }
+    
+  }
+  
+  
+}
+
