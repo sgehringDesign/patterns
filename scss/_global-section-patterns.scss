@@ -179,13 +179,19 @@
 .cta-fixed {
   position: fixed;
   bottom: 0;
-  right: 0;
   height:275px;
   width:300px;
-  //background: #fff;
+  
+  @include breakpoint(small only) {
+    left: 50%;
+    margin-left: -37.5%;
+  }
+  
+  @include breakpoint(medium) {
+    right: 0;
+  }
   
   .header {
-    ///background: #eee;
     height:25px;
     
     button {
