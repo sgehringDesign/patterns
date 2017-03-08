@@ -2,15 +2,19 @@
 <page>
   <section class="row v-padding-large expanded columned-left-image bg-gray-05 valign-large" >
     <column class="small-12 medium-5 columns text-center">
+      <!--img picker-->
       <img src="../../images/screen-shot.png" class="small-11 medium-10 small-centered" border="0"  />
+      <!--img picker-->
     </column>
     <column class="small-11 medium-6 columns end text-center medium-text-left">
+      <!--simple editor-->
       <h2>Lorem ipsum dolor</h2>
       <p class="lead">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper facilisis libero, sed dignissim risus porttitor id.
         Nulla tincidunt ut justo eget vehicula. Vivamus dui sem rhoncus quis elit vitae, faucibus volutpat sapien. Morbi mauris orci
         gravida eu vulputate ac.
       </p>
+      <!--simple editor-->
     </column>
   </section>
  </page>
