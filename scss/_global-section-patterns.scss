@@ -1,6 +1,6 @@
 
 //- columned-list-left
-.columned-list-left {
+.section-list-left {
     
     h1 {
       text-align: center;
@@ -41,8 +41,8 @@
 
 }
 
-//- columned-list-sentance 
-.columned-list-sentance {
+//- columned-list-sentance
+.section-list-sentance {
   
   h1 {
     text-align: center;
@@ -69,7 +69,8 @@
 
 
 //- columned-list-sentance 
-.columned-list-divider {
+.section-list-3-columns,
+.section-list-divider {
 
   h1 {
     text-align: center;
@@ -102,7 +103,7 @@
 }
 
 //- columned-list-boxed 
-.columned-list-boxed {
+.section-list-boxed {
   
   h1 {
     text-align: center;
@@ -128,7 +129,7 @@
 }
 
 
-.columned-left-image {
+.section-left-image {
   @include breakpoint(small only) { 
     .columns {
       
@@ -151,7 +152,7 @@
   }
 }
 
-.columned-right-image {
+.section-right-image {
   @include breakpoint(small only) { 
     .columns {
       
