@@ -90,12 +90,6 @@
     font-weight:200;
   }
   
-  h2 + ul,
-  h3 + ul,
-  h4 + ul, {
-    margin-top: .5rem;
-  }
-
   ul {
     margin-top: $paragraph-margin-bottom + .5rem;
     margin-bottom: $paragraph-margin-bottom + .5rem;
