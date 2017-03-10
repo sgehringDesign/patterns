@@ -194,9 +194,28 @@
   .header {
     height:25px;
     
-    button {
+    .close-button {
       float:right;
-      border:1px solid red;
+      
+      border-top:1px solid $light-gray;
+      border-left:1px solid $light-gray;
+      border-right:1px solid $light-gray;
+      background: #fff;
+      font-size: 1.5rem;
+      padding:0 10px;
+      line-height:.9;
+      
+      -webkit-border-bottom-left-radius: 2px;
+      -webkit-border-bottom-right-radius: 2px;
+      -moz-border-radius-bottomleft: 0;
+      -moz-border-radius-bottomright: 0;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      
+      span {
+        font-size: 1.5rem;
+        line-height:.9;
+      }
     }
     
   }
