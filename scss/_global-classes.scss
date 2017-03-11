@@ -272,4 +272,19 @@ ul.divider {
   }
 }
 
+ol.references {
+  border-top:1px solid $medium-gray; 
+  margin:$paragraph-margin-bottom 0;
+  padding-top: $paragraph-margin-bottom;
+  list-style-position: inside;
+  border:1px solid red;
+  
+  li {
+    padding:0; 
+    border:1px solid green;
+    padding-left: 1rem;
+    font-size: .7rem;
+  }
+}
+
 
