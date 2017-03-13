@@ -4,9 +4,17 @@ hr {
 }
 
 blockquote {
-  border: none;
+  border: none!important;
   margin-bottom: $paragraph-margin-bottom + 1rem;
-  margin-top: $paragraph-margin-bottom + 1rem; 
+  margin-top: $paragraph-margin-bottom + 1rem;
+  
+  p {
+    margin-bottom: $paragraph-margin-bottom;
+  } 
+  
+  cite {
+    font-size: .75rem;
+  }
 }
 
 sup {
