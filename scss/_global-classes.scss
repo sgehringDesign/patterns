@@ -3,6 +3,12 @@ hr {
   max-width: none;
 }
 
+blockquote {
+  border: none;
+  border-top:1px solid $light-gray;
+  border-bottom:1px solid $light-gray;
+}
+
 sup {
   font-size: .4em;
   top: -0.7em;
