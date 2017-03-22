@@ -1,4 +1,17 @@
 
+
+
+
+
+
+.section-header{
+  h1 {
+    margin-bottom: 0;
+  }
+  
+}
+
+
 //- columned-list-left
 .section-list-left {
     
@@ -150,14 +163,15 @@
 }
 
 
-.section-left-image {
+.section-right-message {
+  
+  h2, h3, h4 {
+    margin-bottom: $paragraph-margin-bottom - .5;
+  }
+      
   @include breakpoint(small only) { 
     .columns {
-      
-      h2, h3, h4 {
-        margin-bottom: $paragraph-margin-bottom;
-      }
-      
+
       p:last-child {
         margin-bottom: 0;
       }
@@ -173,14 +187,15 @@
   }
 }
 
-.section-right-image {
+.section-left-message {
+
+  h2, h3, h4 {
+    margin-bottom: $paragraph-margin-bottom - .5;
+  }
+
   @include breakpoint(small only) { 
     .columns {
-      
-      h2, h3, h4 {
-        margin-bottom: $paragraph-margin-bottom;
-      }
-      
+
       p:last-child {
         margin-bottom: 0;
       }
@@ -279,13 +294,40 @@
   
 }
 
-
+.section-hero-25,
+.section-hero-50,
+.section-hero-75,
 .section-hero-100 {
-  height: 100vh;
-  
   margin: 0;
   padding: 0;
-  height: 100vh;
+  background: #c0c0c0;
+
+  &:before {
+    content: '\200B'; 
+    display: inline-block;
+    height: 100%; 
+    vertical-align: middle;
+    padding:0;
+    margin:0;
+  }
+  
+  .middle-inline-block {
+    margin:0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    background:red;
+    padding: 10px 15px;
+  }
+
+
+}
+
+
+.section-hero-75 {
+  margin: 0;
+  padding: 0;
+  height: 540px;
 
   &:before {
     content: '\200B';
@@ -304,4 +346,5 @@
   }
 
 }
+
 
