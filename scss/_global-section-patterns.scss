@@ -68,10 +68,30 @@
 }
 
 
+.section-messages-2-columns,
+.section-messages-3-columns {
+
+  .section-header {
+    padding-bottom: $paragraph-margin-bottom;
+    
+    .columns {
+      border-bottom: 1px solid $light-gray;
+      padding-bottom: $paragraph-margin-bottom;
+    }
+    
+    h1, h2, h3, .lead {
+      margin-bottom: 0;
+    }
+  }
+
+}
+
+
 //- columned-list-sentance 
+.section-list-2-columns, 
 .section-list-3-columns,
 .section-list-divider {
-
+  
   h1 {
     text-align: center;
     margin-bottom: $paragraph-margin-bottom + 1rem;
@@ -262,11 +282,25 @@
 
 .section-hero-100 {
   height: 100vh;
+  
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 
+  &:before {
+    content: '\200B';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+  }
+  
   .columns {
     display: inline-block;
     vertical-align: middle;
-    border: 1px solid red;
+    width: 100%;
+    //border: 1px solid red;
   }
 
 }
