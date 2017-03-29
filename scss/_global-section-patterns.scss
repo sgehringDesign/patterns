@@ -6,9 +6,8 @@
 
 .section-header{
   h1 {
-    margin-bottom: 0;
+    margin-bottom: $paragraph-margin-bottom - .5rem;
   }
-  
 }
 
 
@@ -93,7 +92,7 @@
     }
     
     h1, h2, h3, .lead {
-      margin-bottom: 0;
+      margin-bottom: $paragraph-margin-bottom - .5rem;
     }
   }
 
@@ -301,33 +300,7 @@
   margin: 0;
   padding: 0;
   background: #c0c0c0;
-
-  &:before {
-    content: '\200B'; 
-    display: inline-block;
-    height: 100%; 
-    vertical-align: middle;
-    padding:0;
-    margin:0;
-  }
-  
-  .middle-inline-block {
-    margin:0;
-    display: inline-block;
-    vertical-align: middle;
-    width: 100%;
-    background:red;
-    padding: 10px 15px;
-  }
-
-
-}
-
-
-.section-hero-75 {
-  margin: 0;
-  padding: 0;
-  height: 540px;
+  white-space: nowrap;
 
   &:before {
     content: '\200B';
@@ -337,14 +310,27 @@
     padding: 0;
     margin: 0;
   }
-  
-  .columns {
+
+  .middle-inline-block {
+    margin:0;
     display: inline-block;
     vertical-align: middle;
     width: 100%;
-    //border: 1px solid red;
+    padding: 0px 15px;
+    
+    .columns {
+      white-space:normal;
+    }
   }
 
+
+}
+
+.section-hero-75 {
+  height: 540px;
+}
+.section-hero-50 {
+  height: 420px;
 }
 
 
