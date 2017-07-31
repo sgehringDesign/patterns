@@ -294,12 +294,15 @@
 }
 
 .section-hero-25,
+.section-hero-33,
 .section-hero-50,
+.section-hero-50-100,
+.section-hero-66,
 .section-hero-75,
 .section-hero-100 {
   margin: 0;
   padding: 0;
-  background: #c0c0c0;
+  background: #333;
   white-space: nowrap;
 
   &:before {
@@ -323,14 +326,83 @@
     }
   }
 
+  h1,
+  h2 {
+    color:#fff;
+  }
 
+  .lead {
+    color:#ccc;
+  }
+}
+
+
+.section-hero-100 {
+  // height: 100vh;
+  height: 812px;
+  
+  @include breakpoint(small only) {
+    height: 667px;
+  }
 }
 
 .section-hero-75 {
-  height: 540px;
+  // height: 75vh; 
+  height: 609px; /* mac pro */
+  
+  @include breakpoint(small only) {
+    height: 667px;
+  }
 }
+
+.section-hero-66 {
+  // height: 66vh;
+  height: 535px; /* mac pro */
+  
+  @include breakpoint(small only) {
+    height: 667px;
+  }
+}
+
 .section-hero-50 {
-  height: 420px;
+  // height: 50vh;
+  height: 406px; /* mac pro */
+  
+  @include breakpoint(small only) {
+    height: 333px;
+  }
 }
+
+
+.section-hero-50-100 {
+  // height: 50vh;
+  height: 406px; /* mac pro */
+  
+  @include breakpoint(small only) {
+    height: 667px;
+  }
+}
+
+.section-hero-33 {
+  // height: 33vh; 
+  height: 268px; /* mac pro */
+  
+  @include breakpoint(small only) {
+    height: 333px;
+  }
+}
+
+.section-hero-25 {
+  // height: 25vh;
+  height: 203px; /* mac pro */
+  
+  @include breakpoint(small only) {
+    height: 333px;
+  }
+}
+
+
+
+
 
 

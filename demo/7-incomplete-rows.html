@@ -1,0 +1,40 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documenting Patterns: Unordered Lists: 3 Columns Boxed w/ Image</title>
+    <link rel="stylesheet" href="../css/app.css">
+  </head>
+  <body>
+
+    <section class="row v-padding-small"> 
+      <div class="medium-2 columns" style="background: #ccc;">3</div>
+      <div class="medium-2 columns" style="background: #ccc;">3</div>
+      <div class="medium-2 columns" style="background: #ccc;">3</div>
+    </section>
+    
+    <section class="row v-padding-small"> 
+      <div class="medium-1 columns" style="background: #ccc;">3</div>
+      <div class="medium-1 columns" style="background: #ccc;">3</div>
+      <div class="medium-1 columns end" style="background: #ccc;">3</div>
+    </section>
+
+    <section class="row v-padding-medium">
+      <div class="large-4 columns text-center">
+          <img src="incomplete-rows.png" style="border:1px solid #ccc;" />
+      </div>
+      <div class="large-8 columns">
+          <h2>Incomplete Rows</h2>
+          <p>In order to work around browsers' different rounding behaviors, Foundation will float the last column in a row to the right so the edge aligns. If your row doesn't have a count that adds up to 12 columns, you can tag the last column with a class of .end in order to override that behavior. Alternatively, you can set the $grid-column-align-edge variable to false to turn off this behavior entirely.</p>
+      </div>
+    </section>
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/what-input.js"></script>
+    <script src="../js/foundation.js"></script>
+    <script src="../js/app.js"></script>
+
+  </body>
+</html>
